@@ -22,8 +22,8 @@ jobs:
         run: |
           rm -rf node_modules package-lock.json yarn-lock.json
 
-      - name: npm install
-        run: npm install
+      - name: yarn install
+        run: yarn
 
       - name: Build
         run: npm run build
